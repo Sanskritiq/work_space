@@ -69,8 +69,8 @@ string longest_common_prefix(vector<string> & str)
     }
     return result;
 }
-// time: 
-// space: 
+// time: O(mn)+O(m) --> inserting into trie and traversing through trie
+// space: O(m) --> storing nodes in trie
 
 int main(){
 
